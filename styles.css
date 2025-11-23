@@ -24,11 +24,13 @@ h1 {
   font-weight: 800;
   /* Bolder for better readability */
   letter-spacing: 0.05em;
-  margin-bottom: 1.2rem;
+  margin-bottom: 0.8rem;
+  /* Reduced margin */
   background: linear-gradient(120deg, #ffffff 0%, #a5b4fc 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-shadow: 0 2px 10px rgba(165, 180, 252, 0.2);
+  line-height: 1.2;
 }
 
 /* サブタイトル */
@@ -82,10 +84,12 @@ li::marker {
 /* 画像 */
 img {
   display: block;
-  margin: 20px auto;
-  max-width: 80%;
-  max-height: 40vh;
-  /* 画像の高さを画面の40%に制限 */
+  margin: 15px auto;
+  /* Reduced margin */
+  max-width: 90%;
+  /* Increased width usage */
+  max-height: 35vh;
+  /* Reduced height to prevent vertical overflow */
   object-fit: contain;
   border-radius: 12px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
@@ -111,8 +115,8 @@ li,
 ul {
   text-align: left;
   width: 100%;
-  max-width: 900px;
-  /* 読みやすい幅に制限 */
+  max-width: 1100px;
+  /* Increased from 900px to reduce right margin */
 }
 
 /* タイトルスライド（画像なし）の調整 */
