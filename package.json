@@ -1,0 +1,16 @@
+{
+  "name": "ai-agent-reading-club",
+  "version": "1.0.0",
+  "description": "Slides for AI Agent Reading Club",
+  "main": "index.js",
+  "scripts": {
+    "build": "marp slides.md --html --output index.html",
+    "watch": "marp -w slides.md --html --output index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@marp-team/marp-cli": "^3.4.0"
+  }
+}

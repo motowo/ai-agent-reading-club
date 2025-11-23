@@ -1,0 +1,22 @@
+{
+    "slides": [
+        {
+            "id": 1,
+            "filename": "01_intro_agent-human.png",
+            "style": "minimal-line-art",
+            "prompt": "AIエージェントと人間が向かい合って協働する抽象的な線画。未来的で柔らかい曲線。"
+        },
+        {
+            "id": 2,
+            "filename": "02_why_questions.png",
+            "style": "minimal-line-art",
+            "prompt": "巨大なクエスチョンマークを前に考える人物の線画。シンプルで軽やか。"
+        },
+        {
+            "id": 3,
+            "filename": "03_future_workspace.png",
+            "style": "minimal-line-art",
+            "prompt": "未来のワークスペースで、人間とAIが並んで作業している抽象的な線画。"
+        }
+    ]
+}
